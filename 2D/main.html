@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <title>DLA</title>
+   </head>
+   <style>  
+   </style>
+
+   <script type="text/javascript" src="js/DLAscript.js">  
+	
+   </script> 
+  
+   <form id="myForm">
+   attraction [%] 
+   <input type="text" name="power" id="powerInput" onblur='setPower()' value="0" size="2"><br>
+   number of molecules 
+   <input type="text" name="power" id="moleculesInput" onblur='setMolecules()' value="1" size="2"><br>
+  	<input type="submit" value="Clear" id="submit" value="1">
+	</form> 
+
+	<button onclick="setCentral()">Central</button>
+	<button onclick="setUp()">Up</button>
+	<button onclick="setDown()">Down</button>
+	<button onclick="setLeft()">Left</button>
+	<button onclick="setRight()">Right</button>
+	<br>
+	<button onclick="modifyInterval()">Pause</button>
+
+	
+	<body onLoad="startGame()">
+	<div id="canvas">
+      <canvas id="gameBoard" width="400" height="400"></canvas>
+	  </div>
+	  
+  </body>
+   
+   
+</html>
