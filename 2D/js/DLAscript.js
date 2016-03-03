@@ -1,3 +1,4 @@
+	
 	var points = 0;
 	var ctx;  
 	var panel;
@@ -14,9 +15,9 @@
 	var circleRad = 1; 
 	var sec;  
 	var circlesNo = 0;
-	var boardWidth = 400;
-	var startX = 200; 
-	var startY = 200;
+	var boardWidth = 600;
+	var startX = 300; 
+	var startY = 300;
 	var destination = 0;
 	var power = 0;
 	var central=1, left=0, right=0, up=0, down=0;
@@ -60,10 +61,10 @@
         }
 
         x -= canvas.offsetLeft;
-        y -= canvas.offsetTop;
-		
+        y -= canvas.offsetTop + 70;
+
 		setPointIntoArray(x,y);  
-} 
+	} 
 
 	function drawBoard(){
 		ctx.clearRect(0, 0,boardWidth, boardWidth); 

@@ -1,0 +1,23 @@
+.btn-toolbar {
+	margin: 5px;
+
+}
+
+.up {
+	margin-left: 58px;
+
+}
+
+.down {
+	margin-left: 58px;
+
+}
+
+.btn-danger {
+	opacity: 0.9;
+}
+
+.btn-default {
+	opacity: 0.5;
+
+}
