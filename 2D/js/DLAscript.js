@@ -232,10 +232,10 @@
 			if(tempX>=0 && tempX<boardWidth && tempY>=0 && tempY<boardWidth){
 				x = tempX; 
 				y = tempY;
-				if(array[x][y] == -1){
+				if(array[x][y] != 0){
 					setPointIntoArray(x,y);
 					found = 1;
-				}
+				} 
 			}else{
 				found =1;
 			}
